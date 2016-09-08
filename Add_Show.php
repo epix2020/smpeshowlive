@@ -1,4 +1,7 @@
-<?php require_once('Connections/msqlsmp.php'); ?>
+<?php 
+require_once('Connections/msqlsmp.php'); 
+include_once('/var/www/html/smp/Includes/mysql2i.class.php');
+?>
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 

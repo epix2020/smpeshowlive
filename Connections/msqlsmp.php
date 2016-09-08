@@ -2,6 +2,7 @@
 # FileName="Connection_php_mysql.htm"
 # Type="MYSQL"
 # HTTP="true"
+include_once('/var/www/html/smp/Includes/mysql2i.class.php');
 $hostname_msqlsmp = "localhost";
 $database_msqlsmp = "smpeshow";
 $username_msqlsmp = "root";
